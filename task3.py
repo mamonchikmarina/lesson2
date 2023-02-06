@@ -3,3 +3,9 @@
 числа N.
 """
 
+user_input = int(input('Введите чисело N = '))
+a = 1
+
+while a <= user_input:
+    print(a,end=' ')
+    a=a*2
